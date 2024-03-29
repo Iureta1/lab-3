@@ -1,0 +1,68 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #f8f9fa; /* Color de fondo */
+  }
+  
+  .navbar-brand {
+    font-weight: bold; /* Estilo del texto del enlace de la marca */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #343a40; /* Color del texto de los enlaces */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Color del texto de los enlaces al pasar el mouse */
+  }
+  
+  /* Estilos para el pie de página */
+  .footer {
+    background-color: #343a40; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    text-align: center; /* Alinear el texto al centro */
+    padding: 20px 0; /* Espaciado interno */
+  }
+  
+  /* Estilos para el título y subtítulo */
+  h1 {
+    font-size: 2.5em; /* Tamaño del título */
+  }
+  
+  h2 {
+    font-size: 1.8em; /* Tamaño del subtítulo */
+  }
+  
+  /* Estilos para el formulario de contacto */
+  .contact-form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: auto; /* Centrar el formulario */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Ancho completo para los campos de entrada */
+    margin-bottom: 10px; /* Espaciado inferior entre los campos */
+  }
+  
+  .contact-form button {
+    width: 100%; /* Ancho completo para el botón */
+  }
+  
+  /* Otros estilos personalizados */
+  /* Agrega tus estilos personalizados aquí */
+  
